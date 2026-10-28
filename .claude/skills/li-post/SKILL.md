@@ -16,10 +16,11 @@ posted it.
 
 ## Before you write
 
-1. Read `~/.claude/linkedin/voice.md` if it exists. That file is the user's
+1. Read `linkedin/voice.md` if it exists. That file is the user's
    voice profile: how they talk, what they never say, who they are talking to.
    If it does not exist, ask for **three of their own past posts**, infer the
-   voice from those, and write the file. Do not skip this and do not invent a
+   voice from those, and write the file at the repository root, then commit and
+   push it (see `linkedin/README.md`). Do not skip this and do not invent a
    voice. A post in the wrong voice is worse than no post.
 2. Read `hooks.json` in this folder. All 21 formulas, with templates, filled
    examples, what each is for, and how each one usually gets ruined.
@@ -71,8 +72,8 @@ Reply "yes" to log it, or tell me what to change.
 ```
 
 **5. Never publish.** This skill produces text. The user posts it. On "yes",
-append the post to `~/.claude/linkedin/log.md` with the date, the hook used
-and the first line, so `/li-audit` has a history to work from later.
+append the post to `linkedin/log.md` with the date, the hook used
+and the first line, so `/li-audit` has a history to work from later. Then commit and push it (see `linkedin/README.md`).
 
 ## Rules that make the difference
 
